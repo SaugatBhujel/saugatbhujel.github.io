@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saugat Bhujel | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">SB</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#gallery">Photography</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+                <h1>
+                    Hi, I'm<br>
+                    <span class="name">Saugat</span><br>
+                    <span class="name">Bhujel</span>
+                </h1>
+                <p class="subtitle">Software Engineer & Developer</p>
+                <div class="social-links">
+                    <a href="https://github.com/saugatbhujel" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/saugatbhujel" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/saugatbhujel" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+            <div class="hero-image" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="images/profile.jpg" alt="Saugat Bhujel">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-content" data-aos="fade-up" data-aos-duration="1200">
+            <h2 data-aos="fade-down" data-aos-delay="200">About Me</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="400">
+                <p class="about-intro">
+                    Hi, I'm <span class="highlight">Saugat Bhujel</span>, a passionate Software Engineer and Photography enthusiast.
+                </p>
+                <p class="about-description">
+                    As a code geek, I love turning complex problems into elegant solutions. My journey in software engineering has equipped me with expertise in web development and various programming technologies. When I'm not coding, you'll find me behind the lens, capturing moments and exploring the world through photography.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Developer</h3>
+                        <p>Crafting clean, efficient code and building user-friendly applications</p>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-camera"></i>
+                        <h3>Photographer</h3>
+                        <p>Capturing life's beautiful moments through my lens</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2 data-aos="fade-down">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="zoom-in-up" data-aos-delay="100">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in-up" data-aos-delay="200">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in-up" data-aos-delay="300">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in-up" data-aos-delay="400">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in-up" data-aos-delay="500">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Microsoft Excel</h3>
+                </div>
+                <div class="skill-card" data-aos="zoom-in-up" data-aos-delay="600">
+                    <i class="fas fa-file-word"></i>
+                    <h3>Microsoft Word</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="section-content">
+            <h2 data-aos="fade-down">Certifications</h2>
+            <div class="cert-card" data-aos="fade-up">
+                <div class="cert-content">
+                    <i class="fab fa-ibm cert-icon"></i>
+                    <h3>Introduction to Software Engineering</h3>
+                    <p class="cert-issuer">IBM & Coursera</p>
+                    <p class="cert-date">Completed: Dec 15, 2024</p>
+                    <a href="https://coursera.org/verify/ZCB8UXD9QW2G" class="verify-btn" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Verify Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="section-content">
+            <h2 data-aos="fade-down">Photography</h2>
+            
+            <!-- Gallery Categories -->
+            <div class="gallery-categories" data-aos="fade-up">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="nature">Nature</button>
+                <button class="category-btn" data-category="street">Street</button>
+                <button class="category-btn" data-category="portrait">Portrait</button>
+                <button class="category-btn" data-category="travel">Travel</button>
+            </div>
+
+            <div class="gallery-grid" data-aos="fade-up">
+                <!-- Nature Photos -->
+                <div class="gallery-item" data-category="nature">
+                    <img src="images/gallery/nature1.jpg" alt="Nature Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Mountain View</h3>
+                            <p>Nature Photography</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Street Photos -->
+                <div class="gallery-item" data-category="street">
+                    <img src="images/gallery/street1.jpg" alt="Street Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>City Life</h3>
+                            <p>Street Photography</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portrait Photos -->
+                <div class="gallery-item" data-category="portrait">
+                    <img src="images/gallery/portrait1.jpg" alt="Portrait Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Portrait</h3>
+                            <p>Portrait Photography</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Travel Photos -->
+                <div class="gallery-item" data-category="travel">
+                    <img src="images/gallery/travel1.jpg" alt="Travel Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Adventure</h3>
+                            <p>Travel Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-content">
+            <h2 data-aos="fade-down">Get In Touch</h2>
+            <div class="contact-info" data-aos="zoom-in" data-aos-delay="200">
+                <a href="mailto:your.actual@email.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    Email Me
+                </a>
+                <a href="https://linkedin.com/in/saugatbhujel" class="contact-link">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2 data-aos="fade-down">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Name</h3>
+                        <p>Description of your amazing project</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards -->
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="section-content">
+            <h2 data-aos="fade-down">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Position Title</h3>
+                        <h4>Company Name</h4>
+                        <p class="timeline-date">2023 - Present</p>
+                        <p>Description of your role and achievements</p>
+                    </div>
+                </div>
+                <!-- Add more timeline items -->
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="section-content">
+            <h2 data-aos="fade-down">Latest Articles</h2>
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up">
+                    <div class="blog-image">
+                        <img src="images/blog1.jpg" alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Article Title</h3>
+                        <p>Brief description of the article...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <!-- Add more blog cards -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Saugat Bhujel. All rights reserved.</p>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out',
+            once: true,
+            offset: 50,
+            delay: 0,
+            disable: 'mobile'
+        });
+    </script>
+
+    <script>
+        // Gallery filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    button.classList.add('active');
+
+                    const category = button.dataset.category;
+
+                    galleryItems.forEach(item => {
+                        if (category === 'all' || item.dataset.category === category) {
+                            item.classList.add('show');
+                        } else {
+                            item.classList.remove('show');
+                        }
+                    });
+                });
+            });
+
+            // Show all items initially
+            galleryItems.forEach(item => item.classList.add('show'));
+        });
+    </script>
+
+    <form class="contact-form" data-aos="fade-up">
+        <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <textarea placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+</body>
+</html> 
