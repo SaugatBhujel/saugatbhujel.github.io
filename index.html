@@ -18,7 +18,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#certifications">Education & Certifications</a></li>
                 <li><a href="#gallery">Photography</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -38,11 +38,8 @@
                     <a href="https://github.com/saugatbhujel" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://linkedin.com/in/saugatbhujel" target="_blank">
+                    <a href="https://www.linkedin.com/in/saugat-bhujel-735b01281/" target="_blank">
                         <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://twitter.com/saugatbhujel" target="_blank">
-                        <i class="fab fa-twitter"></i>
                     </a>
                 </div>
                 <a href="#contact" class="cta-button">Get In Touch</a>
@@ -150,7 +147,10 @@
             <!-- VaultBooks Project -->
             <div class="project-card" data-aos="fade-up">
                 <div class="project-image">
-                    <img src="images/projects/vaultbooks-logo.png" alt="VaultBooks - Financial Management System" class="project-img" loading="lazy">
+                    <video autoplay loop muted playsinline class="project-video">
+                        <source src="images/projects/Vault Books.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
                 <div class="project-content">
                     <div class="project-header">
@@ -177,7 +177,19 @@
 
     <section id="certifications">
         <div class="section-content">
-            <h2 data-aos="fade-down">Certifications</h2>
+            <h2 data-aos="fade-down">Education & Certifications</h2>
+            
+            <!-- High School -->
+            <div class="cert-card" data-aos="fade-up">
+                <div class="cert-content">
+                    <i class="fas fa-graduation-cap cert-icon"></i>
+                    <h3>High School Graduate</h3>
+                    <p class="cert-issuer">Ankuram Academy</p>
+                    <p class="cert-date">2021 - 2023</p>
+                    <p class="cert-description">Successfully completed high school education with a focus on science and mathematics, building a strong foundation for further studies in Computer Science.</p>
+                </div>
+            </div>
+
             <!-- IBM Certificate -->
             <div class="cert-card" data-aos="fade-up">
                 <div class="cert-content">
@@ -191,7 +203,7 @@
                 </div>
             </div>
 
-            <!-- New Certificate -->
+            <!-- AI Certificate -->
             <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="cert-content">
                     <i class="fab fa-ibm cert-icon"></i>
@@ -235,15 +247,34 @@
             <div class="gallery-categories" data-aos="fade-up">
                 <button class="category-btn active" data-category="all">All</button>
                 <button class="category-btn" data-category="nature">Nature</button>
-                <button class="category-btn" data-category="street">Street</button>
-                <button class="category-btn" data-category="portrait">Portrait</button>
-                <button class="category-btn" data-category="travel">Travel</button>
+                <button class="category-btn" data-category="wildlife">Wildlife</button>
             </div>
 
             <div class="gallery-grid" data-aos="fade-up">
-                <!-- Nature Photos -->
+                <!-- Featured Photos (shown in All) -->
+                <div class="gallery-item featured" data-category="all nature">
+                    <img src="images/gallery/nature2.jpeg" alt="Nature Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Scenic Beauty</h3>
+                            <p>Nature Photography</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item featured" data-category="all wildlife">
+                    <img src="images/gallery/wildlife2.JPG" alt="Wildlife Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Wild Life</h3>
+                            <p>Wildlife Photography</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Nature Photos -->
                 <div class="gallery-item" data-category="nature">
-                    <img src="images/gallery/nature1.jpg" alt="Nature Photography" loading="lazy">
+                    <img src="images/gallery/nature1.JPG" alt="Nature Photography" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-info">
                             <h3>Mountain View</h3>
@@ -252,35 +283,63 @@
                     </div>
                 </div>
 
-                <!-- Street Photos -->
-                <div class="gallery-item" data-category="street">
-                    <img src="images/gallery/street1.jpg" alt="Street Photography" loading="lazy">
+                <div class="gallery-item" data-category="nature">
+                    <img src="images/gallery/nature3.JPG" alt="Nature Photography" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-info">
-                            <h3>City Life</h3>
-                            <p>Street Photography</p>
+                            <h3>Natural Beauty</h3>
+                            <p>Nature Photography</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Portrait Photos -->
-                <div class="gallery-item" data-category="portrait">
-                    <img src="images/gallery/portrait1.jpg" alt="Portrait Photography" loading="lazy">
+                <div class="gallery-item" data-category="nature">
+                    <img src="images/gallery/nature4.JPG" alt="Nature Photography" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-info">
-                            <h3>Portrait</h3>
-                            <p>Portrait Photography</p>
+                            <h3>Landscape View</h3>
+                            <p>Nature Photography</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Travel Photos -->
-                <div class="gallery-item" data-category="travel">
-                    <img src="images/gallery/travel1.jpg" alt="Travel Photography" loading="lazy">
+                <!-- Additional Wildlife Photos -->
+                <div class="gallery-item" data-category="wildlife">
+                    <img src="images/gallery/wildlife1.jpeg" alt="Wildlife Photography" loading="lazy">
                     <div class="gallery-overlay">
                         <div class="gallery-info">
-                            <h3>Adventure</h3>
-                            <p>Travel Photography</p>
+                            <h3>Wildlife Beauty</h3>
+                            <p>Wildlife Photography</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="wildlife">
+                    <img src="images/gallery/wildlife3.jpeg" alt="Wildlife Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Natural Habitat</h3>
+                            <p>Wildlife Photography</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="wildlife">
+                    <img src="images/gallery/wildlife4.jpeg" alt="Wildlife Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Wildlife Portrait</h3>
+                            <p>Wildlife Photography</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="wildlife">
+                    <img src="images/gallery/wildlife5.jpeg" alt="Wildlife Photography" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Wild Moments</h3>
+                            <p>Wildlife Photography</p>
                         </div>
                     </div>
                 </div>
@@ -311,7 +370,7 @@
                             <i class="fab fa-linkedin"></i>
                             <div>
                                 <h4>LinkedIn</h4>
-                                <a href="https://linkedin.com/in/saugatbhujel" target="_blank">@saugatbhujel</a>
+                                <a href="https://www.linkedin.com/in/saugat-bhujel-735b01281/" target="_blank">@saugatbhujel</a>
                             </div>
                         </div>
                     </div>
@@ -376,17 +435,23 @@
                     const category = button.dataset.category;
 
                     galleryItems.forEach(item => {
-                        if (category === 'all' || item.dataset.category === category) {
-                            item.classList.add('show');
+                        const itemCategories = item.dataset.category.split(' ');
+                        if (category === 'all') {
+                            // For 'all' category, only show items with 'all' in their categories
+                            item.style.display = itemCategories.includes('all') ? 'block' : 'none';
                         } else {
-                            item.classList.remove('show');
+                            // For other categories, show all items with that category
+                            item.style.display = itemCategories.includes(category) ? 'block' : 'none';
                         }
                     });
                 });
             });
 
-            // Show all items initially
-            galleryItems.forEach(item => item.classList.add('show'));
+            // Show only featured items initially
+            galleryItems.forEach(item => {
+                const itemCategories = item.dataset.category.split(' ');
+                item.style.display = itemCategories.includes('all') ? 'block' : 'none';
+            });
         });
     </script>
 </body>
